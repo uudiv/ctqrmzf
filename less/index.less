@@ -1,1 +1,88 @@
 // out: ../css/index.css, compress: true, sourceMap: false
+
+.body_bg {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+
+    ul {
+        width: 100%;
+        height: 100%;
+
+        li {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            display: none;
+        }
+    }
+}
+
+.header {
+    .w {
+        height: 180px;
+    }
+
+    .logo {
+        float: left;
+        height: 100%;
+        display: table;
+
+        div {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+
+    .search {
+        float: right;
+        height: 100%;
+        display: table;
+
+        form {
+            display: table-cell;
+            vertical-align: middle;
+
+            input {
+                width: 360px;
+                height: 50px;
+                padding: 0 0 0 10px;
+                font-size: 16px;
+                color: #000;
+                border-radius: 10px 0 0 10px;
+                background-color: #fff;
+            }
+
+            span {
+                float: right;
+                width: 50px;
+                height: 50px;
+                background-color: #fff;
+                border-radius: 0 10px 10px 0;
+                text-align: center;
+                line-height: 50px;
+                cursor: pointer;
+            }
+        }
+
+    }
+}
+
+.nav {
+    ul {
+        li {
+            width: 106px;
+            height: 106px;
+            background-color: rgba(86, 138, 217, 0.9);
+            border-radius: 50%;
+
+            +li {
+                margin-top: 30px;
+            }
+        }
+    }
+}
