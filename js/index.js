@@ -97,7 +97,7 @@ $(function () {
 		autoPlay: false,
 		scroll: 4,
 		vis: 4,
-		delayTime: 1000
+		delayTime: 1500
 	});
 
 	// jQuery(".picScroll-left").slide({
