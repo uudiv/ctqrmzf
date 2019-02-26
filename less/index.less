@@ -129,6 +129,10 @@
             &:first-child {
                 display: block;
             }
+
+            // &:nth-child(2) {
+            //     display: block;
+            // }
         }
 
         // ----------------------------------------------------
@@ -335,7 +339,227 @@
         }
 
         // ----------------------------------------------------
-        
+        .item2 {
+            .jq_qz {
+                width: 100%;
+                border: 6px solid #568ad9;
+                border-left: none;
+                border-right: none;
+
+                >div {
+                    height: 300px;
+                    background-color: rgba(255, 255, 255, 0.5);
+                    border: 6px solid #bbd0f0;
+                    border-left: none;
+                    border-right: none;
+                }
+
+                .jqxxgk {
+                    width: 400px;
+                    float: left;
+                    margin-top: 20px;
+                    margin-left: 15px;
+
+                    .jqxxgk_title {
+                        position: relative;
+
+                        &::before {
+                            content: '';
+                            width: 100%;
+                            height: 1px;
+                            background-color: #568ad9;
+                            position: absolute;
+                            top: 14px;
+                            left: 0;
+                        }
+
+                        h3 {
+                            position: relative;
+                            display: inline-block;
+                            padding: 0 15px;
+                            height: 26px;
+                            background-color: #568ad9;
+                            border: 1px solid #568ad9;
+                            border-radius: 13px;
+                            text-align: center;
+                            font: 300 16px/26px "Microsoft Yahei";
+                            color: #fff;
+                            float: left;
+                        }
+
+                        >a {
+                            position: relative;
+                            display: inline-block;
+                            width: 52px;
+                            height: 26px;
+                            background-color: #eef3fb;
+                            border: 1px solid #568ad9;
+                            border-radius: 13px;
+                            text-align: center;
+                            font: 300 12px/26px "Microsoft Yahei";
+                            color: #568ad9;
+                            float: right;
+                        }
+                    }
+
+                    .jqxxgk_body {
+                        ul {
+                            padding-top: 20px;
+
+                            li {
+                                a {
+                                    display: block;
+                                    width: 100%;
+                                    height: 36px;
+                                    line-height: 36px;
+                                    font-size: 14px;
+                                    color: #333;
+
+                                    &:hover {
+                                        color: #f00;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .qzzc {
+                    width: 540px;
+                    height: 100%;
+                    float: right;
+                    background-color: rgba(86, 138, 217, .3);
+
+                    .qzzc_title {
+                        position: relative;
+                        margin: 20px;
+
+                        &::before {
+                            content: '';
+                            width: 100%;
+                            height: 1px;
+                            background-color: #568ad9;
+                            position: absolute;
+                            top: 14px;
+                            left: 0;
+                        }
+
+                        h3 {
+                            position: relative;
+                            display: inline-block;
+                            padding: 0 15px;
+                            height: 26px;
+                            background-color: #568ad9;
+                            border: 1px solid #568ad9;
+                            border-radius: 13px;
+                            text-align: center;
+                            font: 300 16px/26px "Microsoft Yahei";
+                            color: #fff;
+                            float: left;
+                        }
+
+                        >a {
+                            position: relative;
+                            display: inline-block;
+                            width: 52px;
+                            height: 26px;
+                            background-color: #eef3fb;
+                            border: 1px solid #568ad9;
+                            border-radius: 13px;
+                            text-align: center;
+                            font: 300 12px/26px "Microsoft Yahei";
+                            color: #568ad9;
+                            float: right;
+                        }
+                    }
+
+                    .qzzc_body {
+                        margin: 0 20px;
+
+                        .person_photo {
+                            float: left;
+                        }
+
+                        .person_detail {
+                            overflow: hidden;
+                            padding-left: 10px;
+                            font-size: 14px;
+                            color: #333;
+                            line-height: 2;
+
+                            .name {
+                                line-height: 1.5;
+                                font-weight: bold;
+                            }
+
+                            .abstract {
+                                a {
+                                    padding: 0 20px;
+                                    color: #29a9df;
+                                    font-size: 14px;
+                                    line-height: 2;
+
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .lb_list {
+                        margin: 20px 20px 0;
+
+                        .lb_list_content {
+                            .hd {
+                                .next {
+                                    right: 0;
+                                }
+
+                                .prev {
+                                    left: 0;
+                                }
+                            }
+
+                            .bd {
+                                padding-left: 30px;
+                            }
+
+                            .bd ul li {
+                                margin: 0 13px;
+                                width: 84px;
+                                height: 91px;
+                                a {
+                                    display: inline-block;
+                                    width: 84px;
+                                    font-size: 14px;
+                                    line-height: 2;
+                                    color: #333;
+                                }
+
+                                img {
+                                    width: 63px;
+                                    height: 63px;
+                                    display: block;
+                                    margin: 0 auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .xxgk_lm {
+                margin-top: 20px;
+
+                ul {
+                    li {
+                        float: left;
+                        margin: 0 6px;
+                    }
+                }
+            }
+        }
 
 
 
