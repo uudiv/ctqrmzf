@@ -1,0 +1,597 @@
+﻿/*---------------二级文字列表页----------------------*/
+
+.ny_wzlb {
+	padding: 0px 25px;
+	min-height: 700px;
+}
+
+.ny_ty_top {
+	border-bottom: 2px solid #189ada;
+	margin-bottom: 15px;
+}
+
+.ny_ty_top img {
+	margin: 0 10px 4px 15px;
+}
+
+.ny_ty_top a {
+	color: #666666;
+	font: 300 14px/50px "microsoft yahei";
+}
+
+.ny_ty_top a:hover {
+	color: #0c95d8;
+}
+
+.ny_ty_left {
+	float: left;
+	width: 230px;
+	padding: 15px 25px;
+	background: #e4e4e4;
+	text-align: center;
+	color: #0c95d8;
+	min-height:300px;
+}
+
+.ny_ty_left .t_yw {
+	width: 100%;
+	height: 40px;
+	font: 600 16px/40px "microsoft yahei";
+}
+
+.ny_ty_left ul {
+	margin-top: 15px;
+}
+
+.ny_ty_left ul li+li {
+	margin-top: 18px;
+}
+
+.ny_ty_left ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	font: 600 14px/40px "microsoft yahei";
+	transition: 0.3s;
+	color: #0c95d8;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.ny_ty_left ul li a:hover {
+	background-color: #0c95d8;
+	color: #fff;
+}
+
+.ny_wzlb_right {
+	float: left;
+	width: 840px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.ny_wzlb_right ul {
+	min-height: 615px;
+	margin-bottom: 30px;
+}
+
+.ny_wzlb_right ul li {
+	font: 300 14px/40px "microsoft yahei";
+	height: 40px;
+	border-bottom: 1px dashed #adadad;
+	background: url(../images/sy_swgk_li01.png) no-repeat 5px center;
+}
+
+.ny_wzlb_right ul li a {
+	display: inline-block;
+	padding-left: 20px;
+	height: 40px;
+	width: 810px;
+	font: 300 14px/40px "microsoft yahei";
+	color: #333;
+}
+
+.ny_wzlb_right ul li a:hover {
+	color: #0c95d8;
+}
+
+.ny_zzwzy .zzy_wz .ny_sxpa{
+ padding-bottom: 50px;
+ font: 700 14px/30px "microsoft yahei";
+ color: #333;
+}
+.ny_zzwzy .zzy_wz .ny_sxpa a {
+ display: inline-block;
+ color: #333;
+}
+.ny_zzwzy .zzy_wz .ny_sxpa a:hover{
+ color: #0c95d8;
+}
+
+/*-----------------市长之窗-----------------------*/
+.qzzc_top{ float:left; width:830px; margin-top: 20px; margin-bottom:30px;  margin-left: 8px;  min-height: 200px;     border-bottom: 1px dashed #ccc;font: 300 14px/28px "Microsoft Yahei"; padding-bottom:30px;}
+.qzzc_top img{ float:left; margin-right:30px; width: 102px; height: 146px; padding: 8px;    border: 1px solid #EDEDED;}
+.qzzc_top li{ float:left; width:670px; list-style:none;font: 300 14px/28px "Microsoft Yahei";color: #333;}
+.qzzc_top li.qzmc{width: 35%; height: 35px; background-color: #5FAEE7; font: 300 16px/35px "Microsoft Yahei"; color: #fff; text-align: center;}
+.qzzc_bot{ font: 300 14px/28px "Microsoft Yahei"; color: #333;  width: 100%; padding-top: 30px; line-height:30px;}
+
+.ny_qzzc {
+	padding: 0px 25px 30px;
+	min-height: 700px;
+}
+
+.ny_qzzc_right {
+	float: left;
+	width: 790px;
+	margin-left: 30px;
+}
+
+.ny_qzzc_right .zp {
+	margin-top: 80px;
+}
+
+.ny_qzzc_right .zp img {
+	width: 160px;
+	height: 210px;
+}
+
+.ny_qzzc_right .nr {
+	width: 550px;
+}
+
+.ny_qzzc_right .nr .tit {
+	width: 100%;
+	color: #0c95d8;
+	font: 700 16px/70px "microsoft yahei";
+	text-align: center;
+}
+
+.ny_qzzc_right .nr span {
+	display: inline-block;
+	width: 100%;
+	color: #0c95d8;
+	font: 700 16px/30px "microsoft yahei";
+	text-align: center;
+	background: #f4f4f4;
+}
+
+.ny_qzzc_right .nr p {
+	width: 100%;
+	color: #666;
+	font: 300 14px/38px "microsoft yahei";
+}
+
+
+/*-------------------图片列表页-----------------------*/
+
+.ny_tplb {
+	padding: 0px 25px;
+	min-height: 700px;
+}
+
+.ny_tplb_right {
+	float: left;
+	width: 840px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.ny_tplb_right ul {
+	min-height: 615px;
+	margin-bottom: 30px;
+}
+.ny_tplb_right ul li a {
+	width: 190px;
+	margin: 0 9px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.ny_tplb_right ul li img {
+	width: 190px;
+	height: 153px;
+	border: 1px solid #d8e8e4;
+}
+
+.ny_tplb_right ul li p {
+	font: 300 14px/40px "microsoft yahei";
+	color: #666;
+	text-align: center;
+}
+
+.ny_tplb_right ul li a:hover img {
+	border: 1px solid #0c95d8;
+}
+
+.ny_tplb_right ul li a:hover p {
+	color: #0c95d8;
+}
+
+
+/*-------------------二级文字页-----------------------*/
+
+.ny_wzdy {
+	padding: 0px 25px;
+	min-height: 700px;
+}
+
+.ny_wzdy_right {
+	float: left;
+	width: 840px;
+	margin-left: 30px;
+}
+
+.ny_wzdy_right p {
+	padding: 0 25px;
+	font: 300 14px/30px "Microsoft Yahei";
+	color: #333;
+}
+
+
+/*.ny_wzdy_right img{
+	margin: 20px auto;
+	display: block;
+}*/
+
+
+/*-------------------详情文字页-----------------------*/
+
+.ny_zzwzy {
+	padding: 0px 25px;
+	min-height: 500px;
+}
+
+.ny_zzwzy .zzy_wz {
+	padding: 0px 25px;
+}
+
+.ny_zzwzy .zzy_wz h4 {
+	text-align: center;
+	font: 700 18px/36px "Microsoft Yahei";
+	color: #000;
+	padding: 18px 20px 0px 20px;
+}
+
+.ny_zzwzy .zzy_wz .rq {
+	text-align: center;
+	font: 300 12px/50px "Microsoft Yahei";
+	color: #666;
+}
+
+.ny_zzwzy .zzy_wz .wz {
+	line-height: 1.5;
+	font-family: 宋体;
+	font-size: 12pt;
+	color: #333;
+	padding-bottom: 50px;
+}
+
+.ny_zzwzy .zzy_wz .wz img {
+	margin: 20px auto;
+	display: block;
+max-width:1000px;
+}
+
+
+/*---------------------专题专栏------------------*/
+
+.ny_ztzl {
+	padding: 0px 25px;
+	min-height: 500px;
+}
+
+.ny_ztzl .ztzl {
+	padding-bottom: 50px;
+}
+
+.ny_ztzl .ztzl ul {
+	margin-top: 30px;
+}
+
+.ny_ztzl .ztzl ul li {
+	margin: 0px 14px 30px;
+	float: left;
+}
+
+.ny_ztzl .ztzl ul li a img {
+	width: 200px;
+	height: 77px;
+	border: 1px solid #fff;
+}
+
+.ny_ztzl .ztzl ul li a:hover img {
+	border: 1px solid #0c95d8;
+}
+
+
+/*---------------------网站地图------------------*/
+
+.ny_wzdt {
+	padding: 0px 25px;
+	min-height: 500px;
+}
+
+.ny_wzdt .wzdt {
+	padding-bottom: 50px;
+	padding: 0 30px 50px;
+}
+
+.ny_wzdt .wzdt {}
+
+.ny_wzdt .wzdt>div {
+	margin-top: 30px;
+}
+
+.ny_wzdt .wzdt h4 a {
+	display: inline-block;
+	background: #e4e4e4;
+	width: 100%;
+	font: 700 16px/36px "microsoft yahei";
+	color: #0c95d8;
+}
+
+.ny_wzdt .wzdt ul {
+	margin-top: 10px;
+}
+
+.ny_wzdt .wzdt ul li {
+	float: left;
+	margin-right: 40px;
+}
+
+.ny_wzdt .wzdt ul li a {
+	font: 300 14px/26px "Microsoft Yahei";
+	color: #333;
+}
+
+.ny_wzdt .wzdt ul li a:hover {
+	color: #0c95d8;
+}
+
+
+/*---------------------财政预结算------------------*/
+
+.ny_czyjs {
+	padding: 0px 25px;
+	min-height: 500px;
+}
+
+
+/*政府预决算*/
+
+.ny_czyjs .zfyjs {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.ny_czyjs .zfyjs .zfyjs_lm ul {}
+
+.ny_czyjs .zfyjs .zfyjs_lm ul li {
+	float: left;
+}
+
+.ny_czyjs .zfyjs .zfyjs_lm ul li a {
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	font: 300 16px/40px "微软雅黑";
+	background-color: #e4e4e4;
+	color: #0c95d8;
+	text-align: center;
+}
+
+.ny_czyjs .zfyjs .zfyjs_lm ul li.now a {
+	background-color: #0c95d8;
+	color: #fff;
+}
+
+.ny_czyjs .zfyjs .zfyjs_nr>div {
+	width: 100%;
+	min-height: 258px;
+	border: 2px solid #e4e4e4;
+	display: none;
+}
+
+.ny_czyjs .zfyjs .zfyjs_nr ul {
+	padding: 15px;
+}
+
+.ny_czyjs .zfyjs .zfyjs_nr ul li {
+	height: 38px;
+}
+
+.ny_czyjs .zfyjs .zfyjs_nr ul li a {
+	display: block;
+	height: 38px;
+	font: 300 14px/38px "微软雅黑";
+	background: url(../images/sy_swgk_li01.png) no-repeat left center;
+	padding-left: 15px;
+	color: #333;
+}
+
+.ny_czyjs .zfyjs .zfyjs_nr ul li a:hover {
+	color: #0c95d8;
+}
+
+
+/*部门预决算*/
+
+.ny_czyjs .bmyjs {
+	margin-top: 30px;
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.ny_czyjs .bmyjs .bmyjs_lm ul {}
+
+.ny_czyjs .bmyjs .bmyjs_lm ul li {
+	float: left;
+}
+
+.ny_czyjs .bmyjs .bmyjs_lm ul li a {
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	font: 300 16px/40px "微软雅黑";
+	background-color: #e4e4e4;
+	color: #0c95d8;
+	text-align: center;
+}
+
+.ny_czyjs .bmyjs .bmyjs_lm ul li.now a {
+	background-color: #0c95d8;
+	color: #fff;
+}
+
+.ny_czyjs .bmyjs .bmyjs_nr>div {
+	width: 100%;
+	min-height: 180px;
+	display: none;
+}
+
+.ny_czyjs .bmyjs table {
+	border: 1px solid #aaa;
+	margin-top: 15px;
+}
+
+.ny_czyjs .bmyjs table th {
+	height: 36px;
+	font: 700 16px/36px "微软雅黑";
+	color: #333;
+	background-color: #ccc;
+}
+
+.ny_czyjs .bmyjs table td {
+	height: 32px;
+	font: 300 14px/32px "微软雅黑";
+	color: #333;
+	text-align: center;
+}
+
+.ny_czyjs .bmyjs table td a {
+	color: #333;
+}
+
+.ny_czyjs .bmyjs table td a:hover {
+	color: #0c95d8;
+}
+
+
+/*---------------------行政执法公示------------------*/
+
+.ny_xzzfgs {
+	padding: 0px 25px;
+	min-height: 500px;
+}
+
+.ny_xzzfgs .xzzfgs {
+	margin-top: 30px;
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.ny_xzzfgs .xzzfgs_lm {}
+
+.ny_xzzfgs .xzzfgs_lm ul {
+	width: 420px;
+}
+
+.ny_xzzfgs .xzzfgs_lm li {
+	float: left;
+	margin: 0 30px;
+}
+
+.ny_xzzfgs .xzzfgs_lm li a {
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	background: #e4e4e4;
+	color: #0c95d8;
+	font: 600 16px/40px "microsoft yahei";
+}
+
+.ny_xzzfgs .xzzfgs_lm li.now a {
+	background: #0c95d8;
+	color: #fff;
+}
+
+.ny_xzzfgs .xzzfgs_xw {
+	border: 2px solid #e4e4e4;
+	padding: 20px 0;
+}
+
+.ny_xzzfgs .xzzfgs_xw>div {
+	display: none;
+}
+
+.ny_xzzfgs .xzzfgs_xw li {
+	display: block;
+	float: left;
+	margin: 10px 20px;
+	border: 1px solid #CCCCCC;
+}
+
+.ny_xzzfgs .xzzfgs_xw li a {
+	display: inline-block;
+	width: 149px;
+	height: 40px;
+	text-align: center;
+	color: #000;
+	background: #eee;
+	font: 300 16px/40px "microsoft yahei";
+}
+
+.ny_xzzfgs .xzzfgs_xw li a:hover {
+	background: #ccc;
+}
+
+
+/*---------------------咨询投诉页------------------*/
+
+
+
+/*---------------------咨询投诉展示页------------------*/
+
+.ny_zxts_zsy {
+	padding: 0px 25px;
+}
+
+.ny_zxts_zsy .zxts_zsy {
+	width: 100%;
+}
+
+.ny_zxts_zsy .zxts_zsy li {
+	padding: 10px 0;
+	font: 300 14px/24px "microsoft yahei";
+	color: #666;
+}
+
+.ny_zxts_zsy .zxts_zsy li a {
+	color: #666;
+}
+
+.ny_zxts_zsy .zxts_zsy li a:hover {
+	color: #0c95d8;
+}
+
+.ny_zxts_zsy .zxts_zsy .lynr {
+}
+
+.ny_zxts_zsy .zxts_zsy .hfnr {
+	padding-top: 5px;
+}
+
+.ny_zxts_zsy .zxts_zsy .xx .tou {
+	display: inline-block;
+	width: 72px;
+	height: 26px;
+	text-align: center;
+	color: #fff;
+	font: 300 14px/26px "microsoft yahei";
+	border-radius: 5px;
+	background-color: #0c95d8;
+}
+
+.ny_zxts_zsy .zxts_zsy .time {
+	color: #999;
+}

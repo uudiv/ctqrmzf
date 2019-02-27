@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>丛台区人民政府</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nystyle.css">
+    <style type="text/css">
+        .ny_zxts {
+            padding: 0px 25px;
+        }
+
+        .ny_zxts p {
+            padding: 10px 20px;
+            border-radius: 5px;
+            font: 300 14px/26px "microsoft yahei";
+            color: #666;
+            background: #ceeaf7;
+            text-indent: 2em;
+        }
+
+        .ny_zxts h3 {
+            color: #0c95d8;
+            font: 700 16px/46px "microsoft yahei";
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        .ny_zxts h6 {
+            color: #0c95d8;
+            font: 300 14px/14px "microsoft yahei";
+            text-align: center;
+            padding-bottom: 25px;
+        }
+
+        .ny_zxts .zxts {
+            padding-bottom: 30px;
+            font: 300 14px/26px "微软雅黑";
+            color: #666;
+            padding: 0 0 40px 340px;
+        }
+
+        .zxts form>div {
+            padding: 10px 0;
+        }
+
+        .zxts input {
+            width: 320px;
+            height: 24px;
+            border: 1px solid #dedede;
+        }
+
+        .zxts label {
+            margin-right: 20px;
+            display: inline-block;
+            width: 80px;
+            text-align: right;
+        }
+
+        .zxts textarea {
+            width: 316px;
+            height: 162px;
+            border: 1px solid #dedede;
+        }
+
+        .zxts #tj_ct {
+            padding-left: 125px;
+        }
+
+        .zxts #tj_ct input {
+            border: none;
+            width: 108px;
+            height: 38px;
+            color: #fff;
+            font: 300 14px/36px "microsoft yahei";
+            cursor: pointer;
+        }
+
+        .zxts #tj_ct input[type="submit"] {
+
+            background: url(../../images/ny_zxts_tjan.jpg) no-repeat;
+        }
+
+        .zxts #tj_ct input[type="reset"] {
+
+            background: url(../../images/ny_zxts_czan.jpg) no-repeat;
+            margin-left: 55px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body_bg">
+        <ul>
+            <li style="background-image: url(images/body_bg1.jpg);"></li>
+            <li style="background-image: url(images/body_bg2.jpg);"></li>
+        </ul>
+    </div>
+    <div class="header clearfix">
+        <div class="w clearfix">
+            <div class="logo">
+                <div><img src="images/logo.png" alt=""></div>
+            </div>
+            <div class="search">
+                <form action="#">
+                    <input type="text" placeholder="请输入关键字....">
+                    <span><img src="images/search.png" alt=""></span>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------------------------------- -->
+    <div class="ny_nav">
+        <div class="w">
+            <ul>
+                <li><a href="#">新闻动态</a></li>
+                <li><a href="#">政务公开</a></li>
+                <li><a href="#">政务服务</a></li>
+                <li><a href="#">政民互动</a></li>
+                <li><a href="#">走进丛台</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- -------------------------------------------------------------- -->
+    <div class="ny_container clearfix">
+        <div class="w clearfix">
+
+            <div class="ny_zxts">
+                <div class="ny_ty_top clearfix">
+                    <img src="../../images/ny_szzc_top.png" />
+                    当前位置：<a href="../../" title="首页" class="CurrChnlCls">首页</a>-><a href="../" title="政民互动" class="CurrChnlCls">政民互动</a>-><a
+                        href="./" title="咨询投诉" class="CurrChnlCls">咨询投诉</a>
+                </div>
+                <p>本栏目为咨询投诉内容。本栏目受理个人和企业对区政府各部门(含各直属机构)办事过程中有关法规、政策、程序等问题的咨询。一般问题在10个工作日内给予答复,复杂问题适当延长。请您不要重复提交问题。本栏目答复是一种指导性意见,不具有法定效力。本栏目不受理涉法涉诉的咨询和投诉。</p>
+                <h3>请填写您的咨询投诉内容</h3>
+                <h6>留言者情况必须真实，否则不予受理，我们有可能用电子邮件回复，请留意查收。</h6>
+                <div class="zxts">
+                    <form action="http://www.hd.gov.cn/infogate/CustomInfoViewDataAdapt" id="frmAction" method="post">
+                        <div>
+                            <label>标 题 : </label>
+                            <input type="text" class="required" name="title" />
+                        </div>
+                        <div>
+                            <label style="display: inline-block;vertical-align: top;">正 文 : </label>
+                            <textarea class="required" name="content"></textarea>
+                        </div>
+                        <div>
+                            <label>姓 名 : </label>
+                            <input type="text" id="name" class="required" name="name" />
+                        </div>
+                        <div>
+                            <label>电 话 : </label>
+                            <input type="text" id="phone" class="required" name="phone" />
+                        </div>
+                        <div>
+                            <label>电 子 邮 箱 : </label>
+                            <input type="text" id="email" name="email" />
+                        </div>
+                        <div>
+                            <label>邮 编 : </label>
+                            <input type="text" id="zipCode" name="code" />
+                        </div>
+                        <div>
+                            <label>地 址 : </label>
+                            <input type="text" id="address" name="address" />
+                        </div>
+                        <div id="tj_ct">
+                            <input value="0" name="needverifycode" type="hidden" />
+                            <input value="175" name="SiteId" type="hidden" />
+                            <input value="27327" name="ChannelId" type="hidden" />
+                            <input value="29" name="InfoViewId" type="hidden" />
+                            <input type="submit" value="提交建议" id="Submission" />
+                            <input type="reset" id="" value="重填信息" />
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------- -->
+
+    <div class="footer">
+        <div class="w">
+            <div class="text">
+                <a href="#">网站声明</a> | <a href="#">联系我们</a> | <a href="#">管理维护</a> | <a href="#">网站地图</a><br />
+                版权所有：丛台区人民政府 冀ICP备:XXXXXX号-1 冀公网备案号:1XXXXXX9
+            </div>
+            <a href="#" class="dzjg"><img src="images/dzjg.png" alt=""></a>
+            <a href="#" class="zfwzzc"><img src="images/zfwzzc.png" alt=""></a>
+        </div>
+    </div>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="http://hdhs.gov.cn/images/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
